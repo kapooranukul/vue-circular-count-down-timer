@@ -106,7 +106,7 @@
                             :fill="secondsFillColor"
                     />
                     <circle
-                            :transform="'rotate(-90, '+cx+', '+cy+')'"
+                            :transform="'rotate(90, '+cx+', '+cy+')'"
                             :style="{strokeDasharray: stroke_dasharray_second, strokeDashoffset: stroke_dashoffset_second}"
                             class="circle_animation"
                             :r="r"
